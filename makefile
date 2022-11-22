@@ -10,9 +10,9 @@ FLAGS= -g -Wall
 basicClassifigication.o: basicClassification.c $(HEADER)
 	$(CC) $(FLAGS) -c basicClassification.c
 advancedClassificationLoop.o: advancedClassificationLoop.c $(HEADER)
-	$(CC) $(FLAGS) -c advancedClassificationLoop.c -lm
+	$(CC) $(FLAGS) -c advancedClassificationLoop.c
 advancedClassificationRecursion.o: advancedClassificationRecursion.c $(HEADER)
-	$(CC) $(FLAGS) -c advancedClassificationRecursion.c -lm
+	$(CC) $(FLAGS) -c advancedClassificationRecursion.c
 main.o: main.c $(HEADER)
 	$(CC) $(FLAGS) -c main.c
 	
