@@ -14,34 +14,33 @@ int main()
             printf(" %d ", i);
         }
         printf(" \n");
-
-        printf("The Palindromes Numbers between %d , %d is :", a, b);
-        for (int i = a; i <= b; i++)
+    }
+    printf("The Palindromes Numbers between %d , %d is :", a, b);
+    for (int i = a; i <= b; i++)
+    {
+        if (isPalindrome(i) == 1)
         {
-            if (isPalindrome(i) == 1)
-            {
-                printf(" %d ", i);
-            }
-            printf("\n");
+            printf(" %d ", i);
         }
-        printf("The Primes Numbers between %d , %d is :", a, b);
-        for (int i = a; i <= b; i++)
+        printf("\n");
+    }
+    printf("The Primes Numbers between %d , %d is :", a, b);
+    for (int i = a; i <= b; i++)
+    {
+        if (isPrime(i) == 1)
         {
-            if (isPrime(i) == 1)
-            {
-                printf(" %d ", i);
-            }
-            printf("\n");
+            printf(" %d ", i);
         }
-        printf("The Strong Numbers between %d , %d is :", a, b);
-        for (int i = a; i <= b; i++)
+        printf("\n");
+    }
+    printf("The Strong Numbers between %d , %d is :", a, b);
+    for (int i = a; i <= b; i++)
+    {
+        if (isStrong(i) == 1)
         {
-            if (isStrong(i) == 1)
-            {
-                printf(" %d ", i);
-            }
-            printf("\n");
+            printf(" %d ", i);
         }
+        printf("\n");
     }
     return 0;
 }
