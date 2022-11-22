@@ -12,7 +12,7 @@ basicClassifigication.o: basicClassification.c $(HEADER)
 advancedClassificationLoop.o: advancedClassificationLoop.c $(HEADER)
 	$(CC) $(FLAGS) -c advancedClassificationLoop.c -lm
 advancedClassificationRecursion.o: advancedClassificationRecursion.c $(HEADER)
-	$(CC) $(FLAGS) -c advancedClassificationRecursion.c
+	$(CC) $(FLAGS) -c advancedClassificationRecursion.c -lm
 main.o: main.c $(HEADER)
 	$(CC) $(FLAGS) -c main.c
 	
