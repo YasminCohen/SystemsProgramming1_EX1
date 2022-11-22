@@ -13,16 +13,13 @@ int isPrime(int x)
 {
     if (x == 1 || x == 2)
         return 1;
-    for (int i = 2; i < x / 2; i++)
+    for (int i = 2; i <=x / 2; i++)
     {
-        if (x % i == 0)
+        if (x % i == 0){
             return 0;
-        else
-        {
-            return 1;
         }
-    }
-    return 1;
+}
+return 1;
 }
 /*implementation of isStrong function*/
 int Factorial(int x)
