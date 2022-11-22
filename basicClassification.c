@@ -48,5 +48,8 @@ int isStrong(int x)
         sum += Factorial(temp);
         x = x / 10;
     }
-    (sum == sumCheck) ? 1 : 0;
+    if (sum == sumCheck){
+        return 1;
+    } 
+    return 0;
 }
