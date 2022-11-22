@@ -13,8 +13,8 @@ int main()
         {
             printf(" %d ", i);
         }
-        printf(" \n");
     }
+    printf("\n");
     printf("The Palindromes Numbers between %d , %d is :", a, b);
     for (int i = a; i <= b; i++)
     {
@@ -22,8 +22,8 @@ int main()
         {
             printf(" %d ", i);
         }
-        printf("\n");
     }
+    printf("\n");
     printf("The Primes Numbers between %d , %d is :", a, b);
     for (int i = a; i <= b; i++)
     {
@@ -31,8 +31,8 @@ int main()
         {
             printf(" %d ", i);
         }
-        printf("\n");
     }
+    printf("\n");
     printf("The Strong Numbers between %d , %d is :", a, b);
     for (int i = a; i <= b; i++)
     {
@@ -40,7 +40,7 @@ int main()
         {
             printf(" %d ", i);
         }
-        printf("\n");
     }
+    printf("\n");
     return 0;
 }
