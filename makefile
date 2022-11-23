@@ -8,11 +8,11 @@ HEADER = NumClass.h
 
 FLAGS= -g -Wall 
 basicClassifigication.o: basicClassification.c $(HEADER)
-	$(CC) $(FLAGS) -c basicClassification.c
+	$(CC) $(FLAGS) -fPIC -c basicClassification.c
 advancedClassificationLoop.o: advancedClassificationLoop.c $(HEADER)
-	$(CC) $(FLAGS) -c advancedClassificationLoop.c -lm
+	$(CC) $(FLAGS) -fPIC -c advancedClassificationLoop.c -lm
 advancedClassificationRecursion.o: advancedClassificationRecursion.c $(HEADER)
-	$(CC) $(FLAGS) -c advancedClassificationRecursion.c -lm
+	$(CC) $(FLAGS) -fPIC -c advancedClassificationRecursion.c -lm
 main.o: main.c $(HEADER)
 	$(CC) $(FLAGS) -c main.c
 	
